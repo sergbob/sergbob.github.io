@@ -78,7 +78,7 @@
 
        <div class="descr"><input type="radio" visibility= "hidden"; checked="checked" name="status" value="ON(")></div>
                  
-        <img alt="" src="img/but_on.jpg" style="height:80px; width:80px" onclick="AjaxFormRequest('messegeResult', 'led', 'transfer/pomidor.php')"/>
+        <img alt="" src="img/but_on.jpg" style="height:80px; width:80px" onclick="AjaxFormRequest('messegeResult', 'led', 'transfer/greenhouse.php')"/>
              
  </form>
 
@@ -91,7 +91,7 @@
 
 <form  id="ledd" action="" method="post"  >     
            <div class="descr"><input type="radio" checked="checked" name="status" value="Off)")></div>      
-        <img alt="" src="img/but_off.jpg" style="height:75px; width:75px" onclick="AjaxFormRequest('messegeResult', 'ledd', 'transfer/pomidor.php')"/>            
+        <img alt="" src="img/but_off.jpg" style="height:75px; width:75px" onclick="AjaxFormRequest('messegeResult', 'ledd', 'transfer/greenhouse.php')"/>            
  </form>
 
 </td>
